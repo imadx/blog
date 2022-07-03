@@ -1,0 +1,25 @@
+:root {
+  --padding-default: 1rem;
+  --color-black: #2b2a33;
+  --color-white: #fff;
+}
+
+#app {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+* {
+  box-sizing: border-box;
+}
