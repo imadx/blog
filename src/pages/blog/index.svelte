@@ -1,5 +1,5 @@
 <main>
-  <h1>Projects</h1>
+  <h1>Blog</h1>
 
   <p>
     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum
@@ -10,7 +10,4 @@
 </main>
 
 <style lang="scss">
-  main {
-
-  }
 </style>

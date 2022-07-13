@@ -1,4 +1,4 @@
-<button>
+<button on:click>
   <slot />
 </button>
 
@@ -10,6 +10,5 @@
     border: none;
     padding: 0.5rem 1rem;
     font-size: 1rem;
-    cursor: not-allowed;
   }
 </style>

@@ -1,5 +1,6 @@
-<script>
+<script lang="ts">
   import HomeArtwork from "src/lib/artwork/HomeArtwork.svelte";
+  import Link from "src/lib/routing/Link.svelte";
 
   import Badge from "src/lib/shared/Badge.svelte";
   import Button from "src/lib/shared/Button.svelte";
@@ -15,8 +16,12 @@
   </hgroup>
 
   <div>
-    <Button>Projects</Button>
-    <Button>Blog</Button>
+    <Link href="/projects">
+      <Button>Projects</Button>
+    </Link>
+    <Link href="/blog">
+      <Button>Blob</Button>
+    </Link>
   </div>
 </main>
 <HomeArtwork />
@@ -30,15 +35,11 @@
   }
 
   main {
-    padding: 1em;
-  }
-
-  main {
-    min-height: calc(100vh - 3rem);
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     justify-content: center;
+    gap: 2rem;
+    min-height: calc(100vh - 19rem);
 
     h2 {
       font-size: 0.8rem;
